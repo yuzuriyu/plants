@@ -1,5 +1,6 @@
 import Featured from "@/components/Featured";
 import Hero from "@/components/Hero";
+import HomeGrid from "@/components/HomeGrid";
 import Slider from "@/components/Slider";
 import Testimonial from "@/components/Testimonial";
 import React from "react";
@@ -11,6 +12,7 @@ const Home = () => {
       <Slider />
       <Featured />
       <Testimonial />
+      <HomeGrid />
     </div>
   );
 };
