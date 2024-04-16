@@ -40,7 +40,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="md:w-flex-1">
-          <p className="font-bold text-center mb-4 md:text-start md:w-2/3">
+          <p className="font-bold text-center mb-12 md:text-start md:w-2/3">
             Learn how we take care of your plant at every stage of its journey
             from our greenhouse to your home
           </p>
