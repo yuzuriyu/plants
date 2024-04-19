@@ -20,14 +20,14 @@ const HomeGrid = () => {
         sizes="100vw"
         className="w-full h-[600px] object-cover"
       />
-      <div className="col-span-2 relative">
+      <div className="col-span-2 relative h-[600px]">
         <Image
           src={"/images/grid-3.jpg"}
           alt=""
           width={0}
           height={0}
           sizes="100vw"
-          className="w-full h-[600px] object-cover absolute"
+          className="w-full h-full object-cover absolute"
         />
         <div className="absolute z-50 top-16 left-20">
           <h1 className="font-bold text-3xl font-playfair w-2/3 mb-4">
